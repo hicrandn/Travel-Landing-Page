@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(images/pexels-tim-gouw-24698.jpg) ;
+    background-size: cover;
+    background-position: center;
+    
+}
+.header{
+    margin: auto;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.header .logo a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;  
+    color:rgb(234, 235, 237);
+    
+}
+.header .logo img{
+    width: 30px;
+}
+
+.header .navbar li{
+    list-style: none;
+    padding: 25px;
+    display: inline-block;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    
+
+}
+.header .navbar li a{
+    text-decoration: none;
+    color: rgb(194, 197, 200);
+}
+.logos a img{
+    display: flex;
+    margin: 14px;
+    
+}
+.content{
+    flex: content;
+    margin-top: 30px;
+    position: absolute;
+    width: 100%;
+    right: 22%;
+    height: auto;
+    top: 50%;
+    text-align: center;
+    color: aliceblue;
+}
+.content h1{
+    margin-bottom: 10px;
+    font-family:'Roboto', sans-serif ;
+    color: rgb(193, 198, 203);
+}
+.content p{
+    margin: 20px 300px;
+    color: rgb(193, 198, 203);
+    font-family:'Roboto', sans-serif ;
+}
+.content .btn{
+    border-radius: 80px;
+    font-size: 10;
+    height: 39px;
+    width:110px;
+    text-transform: uppercase;
+    background-color:#5d5977;
+    text-align: center;
+    color: aliceblue;
+    border: 3px solid black;
+    font-family: 'Roboto', sans-serif;
+    transition: all .5s ease;
+
+}
+.content .btn:hover{
+    background-color: #5d5977;
+    z-index: -1;
+    transform: scale(1.2);
+} 
+.p p{
+    margin-top: 16%;
+    color: rgb(187, 192, 196);
+    left: 50%;
+    position: absolute;
+    width: 250px;
+    left: 70%;
+}
+
+.play-button{
+    font-size: 50px;
+    color: rgb(187, 192, 196);
+    height: 1em;
+    width: 1em;
+    border: 5px;
+    border-radius: 50%;
+    background: transparent;
+    margin-left: 80%;
+    transition: all .5s ease
+}
+.play-button:hover{
+transform: scale(1.5);
+}
+.cont h3{
+    font-size: 20px;
+    margin-left: 93%;
+    margin-top: -36px;
+    width: 120px;
+    color:rgb(187, 192, 196) ;
+    
+}
+.play-button::before{
+    content: "";
+    display: inline-block;
+    border-left: 0.3em solid;
+    border-top: 0.16em solid transparent;
+    border-bottom: 0.16em solid transparent;
+}
